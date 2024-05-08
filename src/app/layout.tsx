@@ -37,13 +37,13 @@ export default function RootLayout({
                   <a href="/resume" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Resume</a>
                 </li>
                 <li>
-                  <a href="https://github.com/mawills" target="_blank" rel="noreferrer noopener" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">GitHub</a>
-                </li>
-                <li>
                   <a href="/gallery" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Gallery</a>
                 </li>
                 <li>
-                  <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Blog</a>
+                  <a href="/blog" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Blog</a>
+                </li>
+                <li>
+                  <a href="https://github.com/mawills" target="_blank" rel="noreferrer noopener" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">GitHub</a>
                 </li>
               </ul>
             </div>

@@ -21,7 +21,7 @@ export default function Page() {
           <section id="experience" className="mb-4">
             <div className="font-bold text-2xl pb-4">experience</div>
             <section className="mb-3">
-              <div className="text-xl font-bold">Software Engineer @ Rocket Mortgage</div>
+              <div className="text-lg font-bold">Software Engineer @ Rocket Mortgage</div>
               <div className="text-slate-500 pb-2 text-xs">September 2020 - August 2023</div>
               <div className="pb-2">Lead front-end developer on a team that is responsible for services that automate portions of the mortgage application process.</div>
               <ul className="list-inside list-disc space-y-1 pl-6">
@@ -31,7 +31,7 @@ export default function Page() {
               </ul>
             </section>
             <section className="mb-3">
-              <div className="text-xl font-bold">Contract Software Engineer @ Ford Motor Company</div>
+              <div className="text-lg font-bold">Contract Software Engineer @ Ford Motor Company</div>
               <div className="text-slate-500 pb-2 text-xs">March 2020 - July 2020</div>
               <div className="pb-2">Lead developer for the Ford self-help portals at https://help.ford.com/ and https://help.lincoln.com on a short-term contract.</div>
               <ul className="list-inside list-disc space-y-1 pl-6">
@@ -41,7 +41,7 @@ export default function Page() {
               </ul>
             </section>
             <section className="mb-3">
-              <div className="text-xl font-bold">Full Stack Software Engineer @ Barracuda Networks</div>
+              <div className="text-lg font-bold">Full Stack Software Engineer @ Barracuda Networks</div>
               <div className="text-slate-500 pb-2 text-xs">March 2018 - March 2020</div>
               <div className="pb-2">Member of a team responsible for microservices including user authentication, a web portal for administration of Barracuda products, and a client-facing UI navigation wrapper used by development teams.</div>
               <ul className="list-inside list-disc space-y-1 pl-6">
@@ -52,7 +52,7 @@ export default function Page() {
               </ul>
             </section>
             <section className="mb-3">
-              <div className="text-xl font-bold">Web Developer @ HDS Marketing, Inc.</div>
+              <div className="text-lg font-bold">Web Developer @ HDS Marketing, Inc.</div>
               <div className="text-slate-500 pb-2 text-xs">February 2017 - February 2018</div>
               <div className="pb-2">Developed and maintained applications and web stores for clients to distribute branded merchandise.</div>
               <ul className="list-inside list-disc space-y-1 pl-6">
@@ -165,9 +165,49 @@ export default function Page() {
               </li>
             </ul>
           </section>
-          {/* <section id="projects" className="mb-4">
+          <section id="projects" className="mb-4">
             <div className="font-bold text-2xl pb-4">projects</div>
-          </section> */}
+            <section>
+              <div className="font-bold">miniatures-site</div>
+              <a
+                href="https://github.com/mawills/miniatures-site"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-xs"
+              >
+                https://github.com/mawills/miniatures-site
+              </a>
+              <div>An API and SQL database for handling user authentication, password hashing, and session persistence with JWT tokens. Fully containerized in Docker with a CI/CD pipeline built in Github Actions.</div>
+              <ul className="flex flex-wrap my-2 last:pb-1.5">
+                <li className="px-2.5 mr-1.5 mb-1.5 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Python
+                </li>
+                <li className="px-2.5 mr-1.5 mb-1.5 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  PostgresSQL
+                </li>
+                <li className="px-2.5 mr-1.5 mb-1.5 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Docker
+                </li>
+              </ul>
+            </section>
+            <section>
+              <div className="font-bold">40k-sim</div>
+              <a
+                href="https://github.com/mawills/40k-sim"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-xs"
+              >
+                https://github.com/mawills/40k-sim
+              </a>
+              <div>A damage simulator for the Warhammer 40k tabletop miniatures game. Utilizes Matplotlib for plotting data.</div>
+              <ul className="flex flex-wrap my-2 last:pb-1.5">
+                <li className="px-2.5 mr-1.5 mb-1.5 text-xs text-gray-750 print:bg-white print:border-inset bg-gray-200">
+                  Python
+                </li>
+              </ul>
+            </section>
+          </section>
         </div>
       </div>
     </div>
