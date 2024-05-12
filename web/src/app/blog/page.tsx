@@ -1,4 +1,18 @@
-export default function Page() {
+import { useState, useEffect } from 'react';
+
+async function getData() {
+    const res = await fetch('http://localhost:3030/test');
+
+    if (!res.ok) {
+        throw new Error('failed to fetch data');
+    }
+
+    return res.json();
+}
+
+export default async function Page() {
+    const data = await getData();
+    console.log(data);
     return (
         <div className="
             p-6

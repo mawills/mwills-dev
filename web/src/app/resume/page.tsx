@@ -17,16 +17,18 @@ export default function Page() {
       <div className="font-bold text-4xl">Matthew Wills</div>
       <div className="pb-7">
         <a
-          href="mailto:mattwillscode@gmail.com"
+          href="mailto:contact@mwills.dev"
           target="_blank"
           rel="noreferrer noopener"
+          className="text-sky-600 print:text-black"
         >
-          mattwillscode@gmail.com
+          contact@mwills.dev
         </a><span> - </span>
         <a
           href="https://github.com/mawills"
           target="_blank"
           rel="noreferrer noopener"
+          className="text-sky-600 print:text-black"
         >
           github.com/mawills
         </a><span> - </span>
@@ -34,6 +36,7 @@ export default function Page() {
           href="https://www.linkedin.com/in/mawills/"
           target="_blank"
           rel="noreferrer noopener"
+          className="text-sky-600 print:text-black"
         >
           linkedin.com/in/mawills/
         </a>
@@ -225,7 +228,7 @@ export default function Page() {
                 href="https://github.com/mawills/miniatures-site"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="text-xs"
+                className="text-xs text-sky-600 print:text-black"
               >
                 https://github.com/mawills/miniatures-site
               </a>
@@ -252,7 +255,7 @@ export default function Page() {
                 href="https://github.com/mawills/40k-sim"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="text-xs"
+                className="text-xs text-sky-600 print:text-black"
               >
                 https://github.com/mawills/40k-sim
               </a>

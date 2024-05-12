@@ -1,11 +1,19 @@
 import * as express from 'express';
-import { Request, Response } from 'express';
+import connect from './dbconnect';
+import postRoute from './routers/post';
+require('@dotenvx/dotenvx').config()
 
 
 const app: express.Express = express();
+const { PORT } = process.env;
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World')
-})
+connect()
+  .then(() => {
+    app.use('/post', postRoute);
 
-app.listen(3030);
+    app.listen(PORT, () => {
+      console.log(`app is listening on port ${PORT}`);
+    });
+  })
+
+export { app };
