@@ -49,16 +49,16 @@ export default function Page() {
               <div className="text-lg font-bold">Software Engineer @ Rocket Mortgage</div>
               <div className="text-slate-500 pb-2 text-xs">September 2020 - August 2023</div>
               <div className="pb-2">
-                Lead front-end developer on a team that is responsible for services that automate portions of the
-                mortgage application process.
+              Tech lead on a team that is responsible for services that automate portions of the mortgage application
+              process.
               </div>
               <ul className="list-inside list-disc space-y-1 pl-6">
                 <li>
-                  Tech lead for numerous projects with direct client impact e.g. reducing page load time on
-                  high-traffic pages ~2 seconds and trusted to resolve high-priority production bugs.
+                Designed projects with direct client impact e.g. reducing page load time on high-traffic pages ~2
+                seconds and trusted to resolve high-priority production bugs.
                 </li>
                 <li>
-                  Built features using PHP, Angular, AWS, and CircleCI, such as a credit payment experience, an
+                  Built features using PHP, C#, Angular, AWS, and CircleCI, such as a credit payment experience, an
                   email referral service, and services to automate work for bankers and for clients to more easily
                   access loan information.
                 </li>

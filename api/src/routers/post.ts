@@ -5,16 +5,20 @@ const route = Router()
 
 route.post('/', async (req: Request, res: Response) => {
     const post = await Post.create({
-        title: 'test',
+        title: 'test3',
         content: 'this is a test post. i will be deleted.',
         slug: 'test-post-delete',
         tags: ['test'],
         published: false,
       })
-      .then(() => {})
-      .catch(e => {
-        console.error('Failed to ')
+      .then(result => {
+        console.log("post created", result)
       })
+      .catch(e => {
+        console.error('Failed to create post', e);
+      })
+    
+      res.status(201).send(post);
 })
 
 route.get('/', async (req: Request, res: Response) => {

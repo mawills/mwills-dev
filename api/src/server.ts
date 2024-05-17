@@ -1,7 +1,7 @@
+import '@dotenvx/dotenvx';
 import * as express from 'express';
 import connect from './dbconnect';
 import postRoute from './routers/post';
-require('@dotenvx/dotenvx').config()
 
 
 const app: express.Express = express();

@@ -6,10 +6,8 @@ const postSchema = new Schema({
     slug: String,
     published: String,
     content: String,
-    tags: [String],
-    createdAt: Date,
-    updatedAt: Date,
-});
+    tags: [String]
+}, { timestamps: true });
 
 const Post = model('Post', postSchema);
 export default Post;
