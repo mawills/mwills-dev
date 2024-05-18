@@ -2,6 +2,8 @@
   "name": "mwills-dev",
   "version": "0.1.0",
   "private": true,
+  "author": "Matthew Wills",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

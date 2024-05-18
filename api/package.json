@@ -1,6 +1,8 @@
 {
   "name": "api",
   "version": "1.0.0",
+  "author": "Matthew Wills",
+  "license": "MIT",
   "description": "",
   "main": "dist/server.js",
   "scripts": {
@@ -9,8 +11,6 @@
     "dev": "dotenvx run -f .env.local -- nodemon src/server.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@dotenvx/dotenvx": "^0.39.0",
     "express": "^4.19.2",
